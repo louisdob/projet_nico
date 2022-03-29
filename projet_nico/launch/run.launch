@@ -1,0 +1,5 @@
+<launch>
+<node name = "detection" pkg = "projet_nico" type = "detection.py" output = "screen" />
+<node name = "controleur_nico" pkg = "projet_nico" type = "controleur_nico" output = "screen" />
+
+</launch>
